@@ -1,0 +1,10 @@
+<svg width="1400" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <title>Layer 1</title>
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_4" height="160" width="1400" stroke-width="0" y="20" stroke="#000000" fill="rgba(222,222,222,0.5)"/>
+  <rect id="svg_1" stroke-dasharray="10,5" height="180" width="180" y="1" x="51" stroke-width="2" opacity="0.75" stroke="Gray" fill="tomato"/>
+  <circle id="svg_2" stroke-dasharray="10,5" stroke="Gray" r="90" cy="91" cx="359" stroke-width="2" opacity="0.75" fill="lightblue"/>
+  <polygon id="svg_3" stroke-width="4" stroke="DarkGray" points="160,199 340,199 250,43" opacity="0.75" fill="lightgreen"/>
+ </g>
+</svg>
