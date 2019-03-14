@@ -1,7 +1,7 @@
 ^!s::
 sendraw, 
 (
-ffmpeg -i input_video.mp4 -ss 00:00:31 -t 00:00:10 -c:v copy cropped.mp4
+ffmpeg -i input_video.mp4 -ss 00:00:30 -t 00:00:10 -c:v copy cropped.mp4
 convert -background none -depth 8 -resize 50`% plate.svg plate.png
 ffmpeg -i cropped.mp4 -i plate.png -filter_complex "overlay=5:H-h-30:enable=between(t\,1\,9)" -c:a copy plated.mp4
 ffmpeg -i plated.mp4 -vf drawtext="fontfile=arial.ttf:text='I am learning computer graphics!':fontcolor=black: fontsize=24: x=200:y=476:enable=between(t\,2\,9)" -c:a copy result.mp4
