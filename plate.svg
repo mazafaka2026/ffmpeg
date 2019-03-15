@@ -1,9 +1,0 @@
-<svg width="1440" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
- <g>
-  <title>plate</title>
-  <rect fill="rgba(222,222,222,0.5)" stroke="#000000" x="0" y="20" stroke-width="0" width="1440" height="160" id="svg_4"/>
-  <rect fill="tomato" stroke="Gray" opacity="0.75" stroke-width="2" x="51" y="1" width="180" height="180" stroke-dasharray="10,5" id="svg_1"/>
-  <circle fill="lightblue" opacity="0.75" stroke-width="2" cx="359" cy="91" r="90" stroke="Gray" stroke-dasharray="10,5" id="svg_2"/>
-  <polygon fill="lightgreen" opacity="0.75" points="160,199 340,199 250,43" stroke="DarkGray" stroke-width="4" id="svg_3"/>
- </g>
-</svg>
