@@ -1,0 +1,1 @@
+convert -background none -depth 8 -resize 50% plate.svg plate.png
